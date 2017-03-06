@@ -40,7 +40,7 @@ input {
 .search, .lucky {
   padding: 5px;
   background-color:#D3D3D3;
-  width: 150px;
+  width: 130px;
   display: inline-block;
   color:#696969;
   text-align: center;
@@ -50,4 +50,13 @@ input {
 
 .search {
   margin-left: 500px;
+}
+
+.foot {
+  text-align: left;
+  margin-top: 270px;
+  background-color: #DCDCDC;
+  height: 40px;
+  color: #696969;
+
 }
