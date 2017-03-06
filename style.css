@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 nav {
   text-align: right;
   vertical-align: middle;
+  margin-top: 1%;
 
 }
 
@@ -46,6 +51,7 @@ input {
   text-align: center;
   font-size: 13px;
   font-weight: lighter;
+  margin-top: 1%;
 }
 
 .search {
@@ -53,10 +59,26 @@ input {
 }
 
 .foot {
+  width: 100%;
   text-align: left;
-  margin-top: 270px;
-  background-color: #DCDCDC;
+  background-color: #EFEFEF;
   height: 40px;
   color: #696969;
+  position: absolute;
+  bottom: 0;
+}
 
+.adv, .priva {
+  display: inline-block;
+  margin-top: 5px;
+
+}
+
+.priva {
+margin-left: 58%;
+  display: inline-block;
+}
+
+.adv {
+  margin-left: 1%;
 }
